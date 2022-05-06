@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/meeting";
+@import "./components/opportunities";
+@import "./components/niceImg";
+@import "./components/tools";
+@import "./components/niceImgTwo";
+@import "./components/clients";
+@import "./components/niceImgThree";
+@import "./components/link";
+@import "./components/footer";
+@import "./components/hamburger";
+

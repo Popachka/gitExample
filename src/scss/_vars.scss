@@ -1,0 +1,11 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  --color-white: #fff;
+  --color-gray: #C0C0C0;
+  --color-black: #181818;
+}
+$normal: 1200px;
+$medium: 978px;
+$small: 800px;
+$ulta-small: 550px;

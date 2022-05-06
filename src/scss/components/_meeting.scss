@@ -1,0 +1,96 @@
+.meeting {
+    background-image: url('../../img/IMAGE.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 716px;
+    margin-bottom: 113px;
+    position: relative;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: flex-end;
+        padding: 50px;
+        @media (max-width: $ulta-small){
+            justify-content: center;
+        }
+        
+    }
+    &__h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__top{
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 2px;
+            font-weight: 400;
+            color: var(--color-gray);
+            text-transform: uppercase;
+            margin-bottom: 1px;
+        }
+        &__bottom{
+            margin-top: 0;
+            font-size: 54px;
+            line-height: 59.4px;
+            font-weight: 400;
+            @media (max-width: $small){
+                font-size: 42px;
+            }
+            @media (max-width: $ulta-small){
+                font-size: 32px;
+            }
+        }
+        margin-bottom: 18px;
+        margin-top: 0;
+
+    }
+
+    &__p {
+        font-size: 14px;
+        color: var(--color-gray);
+        max-width: 580px;
+        margin: 0;
+        text-align: center;
+        @media (max-width: $small){
+            font-size: 12px;
+        }
+        @media (max-width: $ulta-small){
+            
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 5%;
+        right: 10%;
+        @media (max-width: $normal){
+            bottom: 2%;
+            right: 5%;
+        }
+        @media (max-width: $small){
+            bottom: 0%; 
+        }
+
+    }
+
+    &__item {
+        font-size: 12px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        &:not(:last-child){
+            margin-right: 16px;
+        }
+        img{
+            margin-right: 6px;
+        }
+    }
+}
+
+

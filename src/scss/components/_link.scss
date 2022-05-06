@@ -1,0 +1,41 @@
+.link {
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 113px 0;
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        @media (max-width:$small){
+            font-size: 24px;
+        }
+    }
+
+    &__par {
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 12px;
+        color: var(--color-gray);
+        font-size: 24px;
+        text-align: center;
+        @media (max-width:$small){
+            font-size: 18px;
+        }
+    }
+
+    &__btn {
+        & img{
+            margin-right: 6px;
+        }
+    }
+}
+.container {
+}
+.btn {
+}

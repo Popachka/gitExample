@@ -1,0 +1,20 @@
+
+.nav-container{
+    display: none;
+    @media (max-width: $small){
+        display: none;
+        justify-content: space-between;
+    }
+    & input{
+        
+    }
+    & .hamburger-list{
+        
+    }
+    & .hamburger-lines {
+        
+        @media (max-width: $small){
+            display: block;
+        }
+    }
+}
